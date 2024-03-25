@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Session and local storage</title>
+    <link rel="stylesheet" href="Tutorial_one.css" />
+  </head>
+  <body>
+    <article id="test-article">
+      <section>
+        <div class="content-container">
+          <h2>Local Storage To-Do List</h2>
+          <p>
+            The tasks in this storage space will persist even if you reload or
+            close the browser tab or window.
+          </p>
+          <ul id="local-storage-todos-container"></ul>
+        </div>
+        <footer>
+          <input id="local-storage-todo-input-ele" type="text" />
+          <button id="local-storage-add-task-btn">Add task</button>
+        </footer>
+      </section>
+      <section>
+        <div class="content-container">
+          <h2>Session Storage To-Do List</h2>
+          <p>
+            The tasks in this storage space are temporary. They vanish when you
+            close the browser tab or window.
+          </p>
+          <ul id="session-storage-todos-container"></ul>
+        </div>
+        <footer>
+          <input id="session-storage-todo-input-ele" type="text" />
+          <button id="session-storage-add-task-btn">Add task</button>
+        </footer>
+      </section>
+    </article>
+    <script src="Tutorial_one.js"></script>
+  </body>
+</html>
