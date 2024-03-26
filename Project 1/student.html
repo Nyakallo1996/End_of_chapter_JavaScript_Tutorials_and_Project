@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Admin App</title>
+    <link rel="stylesheet" href="student.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Student Admin App</h1>
+      <h3>Welcome to Web Dev University!!!</h3>
+      <div id="container">
+        <form id="studentForm">
+          <input type="text" placeholder="Student name" name="name" required />
+          <input type="number" placeholder="Student age" name="age" required />
+          <input
+            type="number"
+            placeholder="Number Of Modules"
+            name="roll"
+            required
+          />
+          <div>
+          <button>Add student</button>
+          </div>
+          <br>
+          <div>
+          <button type="reset">Reset</button>
+          </div>
+          <br>
+          <div>
+            <button id="clear" type="button">Clear</button>
+          </div> 
+        </form>
+        <div class="students"></div>
+      </div>
+    </main>
+    <script src="student.js"></script>
+  </body>
+</html>
