@@ -9,15 +9,65 @@
   <body>
     <h1>Kasi Business Finder</h1>
     <div class="container">
+      <h2>Contact details:</h2>
       <div>
-        <form action="">
-          <label for="fname">full name:</label>
-          <input type="text"><br>
-          <label for="celnumber">Cellphone number:</label>
-          <input type="text"><br>
-          <label for="address">address</label>
-          <input type="text">
+        <form action="" method="post">
+          <div>
+            <label for="fname">full name:</label>
+          <input type="text" required><br>
+          </div>
+          <br>
+          <div>
+            <label for="celnumber">Cellphone number:</label>
+          <input type="text" required><br>
+          </div>
+          <br>
+          <div>
+            <label for="address">address</label>
+          <input type="text" required>
+          </div>
+          <br>
+          <div>
+            <input type="submit">
+          </div>
+          <br>
+          <div>
+            <input type="reset">
+          </div>
+          
         </form>
+
+      </div>
+      <div>
+        <h2>Service that you looking for:</h2>
+        <form action="" method="post">
+          <div>
+            <label for="Service">Please choose service:</label>
+            <select name="" id="">
+              <option value="">Choose</option>
+              <option value="electrical">Electrical</option>
+              <option value="plumbing">Plumbing</option>
+              <option value="catering">Catering</option>
+            </select>
+          </div>
+          <br>
+          <div>
+            <input type="submit">
+          </div>
+          <br>
+          <div>
+            <input type="reset">
+          </div>
+        </form>
+      </div>
+      <div>
+        <h2>Your contact details</h2>
+        <p></p>
+      </div>
+      <br>
+      <div>
+        <h2>The service you requested:</h2>
+        <p></p>
       </div>
     </div>
     <script src="Kasi.js"></script>
