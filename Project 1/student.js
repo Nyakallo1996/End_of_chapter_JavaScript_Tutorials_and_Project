@@ -31,7 +31,7 @@ const createStudentElement = ({ name, age, roll }) => {
   
   studentName.innerText = "Student name: " + name;
   studentAge.innerText = "Student age: " + age;
-  studentRoll.innerText = "Student roll: " + roll;
+  studentRoll.innerText = "Student Modules: " + roll;
 
   
   studentDiv.append(studentName, studentAge, studentRoll);
