@@ -106,3 +106,13 @@ fetch('https://some-api.com/data')
   .catch(error => {
     console.error('Error:', error);
   });
+
+//Async Functions with async/await
+
+async function getData() {
+    const response = await fetch('https://jsonplaceholder.typicode.com/posts/1');
+    const data = await response.json();
+    console.log(data);
+  }
+  
+  getData();
